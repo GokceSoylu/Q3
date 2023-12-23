@@ -1,0 +1,43 @@
+html, body{
+    height: 100%;
+}
+body{
+    display:grid;
+    grid-template: 
+        "top top top" 150px
+        "aside main ads" auto
+        "footer footer footer" 100px;
+    grid-template-columns: 7% 67% 30%;
+    
+}
+top{
+    display: grid;
+    grid-area: top;
+    border: 1px solid #333;
+}
+aside{
+    display: grid;
+    grid-area: aside;
+    border: 1px solid #333;
+
+}
+
+main{
+    grid-area: main;
+    display: grid;
+    border: 1px solid #333;
+
+
+}
+ads{
+    display: grid;
+    grid-area: ads;
+    border: 1px solid #333;
+
+}
+footer{
+    display: grid;
+    grid-area: footer;
+    border: 1px solid #333;
+}
+
