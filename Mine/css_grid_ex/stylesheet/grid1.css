@@ -29,12 +29,20 @@ main{
 
 
 }
+
 ads{
     display: grid;
     grid-area: ads;
+    grid-row: 30% 70%;
+    grid-row-gap:7px;
     border: 1px solid #333;
 
 }
+
+ads nav{
+    border: 1px solid #333;
+}
+
 footer{
     display: grid;
     grid-area: footer;
