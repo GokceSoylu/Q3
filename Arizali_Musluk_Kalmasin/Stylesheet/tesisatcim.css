@@ -1,4 +1,48 @@
+html, body{
+    height: 100%;
+}
+h1{
+    color:red;
+    margin: 0px;
+}
+body{
+    display: grid;
+    grid-template:
+        "top top" 230px
+        "aside main"
+        "footer footer" 100px;
+}
 
-.header{
-    
+top{
+    display: flex;
+    grid-area: top;
+    grid-template-rows: 80% 20%;
+    border: 1px solid #333;
+}
+top nav{
+    margin:0px;
+}
+#top-title{
+    border:1px solid #333;
+}
+#top-menu{
+    border:1px solid #333;
+}
+
+aside{
+    display: grid;
+    grid-area: aside;
+    border:1px solid #333;
+}
+
+main{
+    display: grid;
+    grid-area: main;
+    border:1px solid #333;
+}
+
+footer{
+    display:grdid;
+    grid-area:footer;
+    border:1px solid #333;
 }
