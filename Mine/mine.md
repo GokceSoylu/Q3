@@ -68,3 +68,27 @@ grid-templete taslağı belirlersin. burada yazdığın px değeri yüksekliği 
 grid-area bahsi geçen attributan hangi grid alanına karşılık geldiğini söylersin
 
 geri kalan display değerlerinş yazmıcam adam olana çok bile.
+
+#  justify content
+* flex-start: Bu seçenek, öğeleri container’ın sol tarafına hizalar.
+
+* flex-end: Bu seçenek, öğeleri container’ın sağ tarafına hizalar.
+
+
+* center: Bu seçenek, öğeleri container’ın ortasına hizalar.
+
+* space-between: Bu seçenek, öğeleri container içinde eşit aralıklarla hizalar.
+
+* space-around: Bu seçenek, öğeleri container içinde eşit aralıklarla hizalar ancak ilk ve son öğeler container kenarlarına daha fazla boşluk bırakır.
+
+# align items
+* flex-start: Öğeler, konteynerin üst kısmına hizalanır.
+
+* flex-end: Öğeler, konteynerin alt kısmına hizalanır.
+
+* center: Öğeler, konteynerin dikey ortasına hizalanır.
+
+* stretch: Öğeler, konteynerin tam yüksekliğine yayılır.
+
+not:kral align-itmes ile justfy-content arasındaki farkı anladık mı? anlamadıysan yandık çünkü bende anlamadım😂
+şaka şaka ben sen miyim tabiki anladım.  align içeriğin dikey olaka yerini belirler. justify yatay olarak :))
