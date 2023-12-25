@@ -3,7 +3,7 @@ html, body{
 }
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0px;
+    
 }
 body{
     display: grid;
@@ -11,41 +11,60 @@ body{
         "top top" 150px
         "aside main" auto
         "footer footer" 100px;
+    grid-template-columns:9% 91%;
 }
-top{
-    display: grid;
+header{
     grid-area: top;
-    grid-template-rows: 80% 20%;
+    display: grid;
+    grid-template-rows: 75% 25%;
     border: 1px solid #333;
 }
-top section{
-    border: 1ppx solid #333;
-}
-#top-title{
+#title{
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 1px solid #333;
 }
-top img{
+header img{
+    padding: 10px;
     max-height: 100%;
     border-radius: 50%;
     max-height: 100px;
 }
-#top-menu{
+#menu{
     display: flex;
+    
     align-items: center;
     justify-content: space-between;
     border: 1px solid #333;
-    padding: 0 15px;
 }
-
+#menu a{
+    padding:9px;
+    margin: 0px;
+    color: teal;
+    border-radius: 10%;
+    border:1px solid teal;
+    text-decoration: none; 
+}
 aside{
     display: grid;
     grid-area: aside;
     border:1px solid #333;
+    justify-content: space-between;
 }
-
+aside a{
+    text-decoration: none;
+    display: block;
+    color: teal;
+    border: 1px solid teal;
+    border-radius: 10%;
+    padding-right: 76px;
+}
+aside button{
+    align-items: flex-end;
+    border: 1px solid teal;
+    border-radius: 10px;
+}
 main{
     display: grid;
     grid-area: main;

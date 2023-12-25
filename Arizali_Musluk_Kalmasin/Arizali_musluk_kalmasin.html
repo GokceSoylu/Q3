@@ -9,19 +9,37 @@
 </head>
 <body>
 
-    <top>
+    <header>
         <section id="title">
             <img src="http://placehold.it/100x100" alt="logo">
             <h1>Arızalı Musluk Kalmasın</h1>
             <img src="http://placehold.it/100x100" alt="resim">
         </section>
+
         <section id="menu">
-            <h1>menü</h1>
+            <nav> <!--hocam nav ı neden eklediğimiz anladık mı? tüm linkleri section içinde tek bir eleman gibi kabul ediyor justfy content muhabbeti-->
+                <a href="#">Home</a>
+                <a href="#">About us</a>
+                <a href="#">Contact</a>
+            </nav>
+            <nav>
+                
+                <form method="post" action="/" >
+                    <input type="search" placeholder="arızanız nedir?" name="ariza"/>
+                </form>
+        </nav>
         </section>
-    </top>
+    </header>
 
     <aside>
-        <h1>aside</h1>
+        <nav>
+            <a href="#">Menü 1</a>
+            <a href="#">Menü 2</a>
+            <a href="#">Menü 3</a>
+        </nav>
+        <form action="/">
+            <button type="submit">Bize Katılın</button>
+        </form>
     </aside>
 
     <main>
