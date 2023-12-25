@@ -33,7 +33,6 @@ header img{
 }
 #menu{
     display: flex;
-    
     align-items: center;
     justify-content: space-between;
     border: 1px solid #333;
@@ -50,27 +49,39 @@ aside{
     display: grid;
     grid-area: aside;
     border:1px solid #333;
-    justify-content: space-between;
 }
 aside a{
     text-decoration: none;
     display: block;
     color: teal;
     border: 1px solid teal;
-    border-radius: 10%;
-    padding-right: 76px;
+    padding-right: 1px;
 }
-aside button{
-    align-items: flex-end;
-    border: 1px solid teal;
-    border-radius: 10px;
+aside form{
+    padding: 0px;
+    padding-bottom: 0px;
 }
 main{
     display: grid;
     grid-area: main;
     border:1px solid #333;
+    
 }
-
+#most_worker {
+    display: flex;
+    list-style:none ;
+    justify-content: space-around;
+    font-size: smaller;
+}
+#most_worker img{
+    border-radius: 10%;
+}
+#about_us{
+    border: 1px solid #333;
+    border-radius: 10%;
+    padding: 5px;
+    text-align: center;
+}
 footer{
     display:grdid;
     grid-area:footer;
