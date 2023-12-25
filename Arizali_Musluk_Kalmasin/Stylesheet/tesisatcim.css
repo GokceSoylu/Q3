@@ -85,7 +85,7 @@ main{
 #slider
 {
     position: relative;
-    margin-left: 110px;
+    margin-left: 150px;
     padding: 0px;
     overflow-x: auto;
     width: 800px;
@@ -96,6 +96,7 @@ main{
 #slider ul
 {
     overflow: auto;
+    padding: 0px;
     list-style:none;
     position: absolute;
     display:inline-flex;
@@ -105,6 +106,9 @@ main{
 #slider li{
     padding-right: 5px;
     padding-left: 5px;
+}
+main > h2{
+    text-align: center;
 }
 footer{
     display:grdid;
