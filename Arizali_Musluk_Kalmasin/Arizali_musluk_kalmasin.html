@@ -42,13 +42,13 @@
     <main>
         <ul id="most_worker">
             <li>
-                <img src="http://placehold.it/70x70">
+                <img src="http://placehold.it/100x100">
                 <h2>ayın elemanı</h2><hr>
                 <h3>Mehmet KUTSALMUSLUK</h3>
                 <p>aralık ayı boyunca damlatan muslukların korkulu rüyası oldu.<br> Özverili çalılmasından dolayı şirketimizin onur elemanı seçildi</p>
             </li>
             <li>
-                <img src="http://placehold.it/70x70">
+                <img src="http://placehold.it/100x100">
                 <h2>kovulan</h2><hr>
                 <h3>Hasan SIZINTI</h3>
                 <p>tamir ettiği bir musluğun daha sonradan damlattığı tespit edildi. <br>Bu derin utancı kendisi adına tüm şirket yaşamış olup 
@@ -60,7 +60,7 @@
         <section id="about_us">
             <h2>Arızalı tek musluk kalmayıncaya kadar görevimizin yılmaz neferleriyiz.<br> Su uyur musluk uyumaz. Şanlı tesisatçı uykuyla hiç tanışmamıştır </h2>
         </section>
-        <h2>Musluk Şovalyeleri</h2>
+        <h1>Musluk Şovalyeleri</h1>
         <section id="slider">
             
             <ul > <!--id yi ul nin içine yazmanınn önemi!!!-->
@@ -78,6 +78,38 @@
                 <li> <img src="http://placehold.it/70x70"> Hasan Sabbah</li>
             </ul>
         </section>
+
+        <section id="mapAndForm">
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7188.472418050667!2d32.65214536127595!3d41.210796798143356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x408353568ca1908d%3A0xedc4cea46c4fdfa2!2sKarab%C3%BCk%20%C3%9Cniversitesi%20M%C3%BChendislik%20Fak%C3%BCltesi!5e0!3m2!1str!2str!4v1703554082871!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+
+            <form action="post" id="iletisim">
+
+                <label for="name"> İsim-Soyisim</label>
+                <input type="text" id="name" name="name;_surname">
+                <br>
+
+                <label for="phone"> Telefon numaranız</label>
+                <input type="tel" id="phone" name="phone_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="5xx-xxx-xxxx">
+                <br>
+
+                <label for="adres"> Adres</label>
+                <input type="text" id="adres" name="adres">
+                <br>
+
+                <p> Arıza türünü seçiniz</p>
+                <label for="Depresif">Depresif Musluk</label>
+                <input type="radio" name="arıza_türü" id="depresif"><br>
+                <label for="üzgün">Üzgün Musluk</label>
+                <input type="radio" name="arıza_türü" id="üzgün"><br>
+                <label for="ergen" >ergen Musluk</label>
+                <input type="radio" name="arıza_türü" id="ergen"><br>
+                <label for="vanasal">Vanasal Sancılar</label>
+                <input type="radio" name="arıza_türü" name="vansal"><br><br>
+
+                <button type="submit" name="submit" id="submit">Gönder</button>
+            </form>
+        </section>
     </main>
     
     <footer>
@@ -86,5 +118,6 @@
 
 </body>
 </html>
+<!--todo iframe nedir-->
 <!--! Footer kısmı düzenlenicek mainde eksik kısımlar eklenicek -->
     <!--! en sonda yaarlı dönerli şetler ekleriz he birde patron resmi fln düzenlersdek güzel olur-->
