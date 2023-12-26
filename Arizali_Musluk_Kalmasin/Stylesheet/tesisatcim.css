@@ -29,7 +29,7 @@ header img{
     padding: 10px;
     max-height: 100%;
     border-radius: 50%;
-    max-height: 100px;
+    height: 100px;
 }
 #menu{
     display: flex;
@@ -75,6 +75,7 @@ main{
 }
 #most_worker img{
     border-radius: 10%;
+    height: 150px;
 }
 #about_us{
     border: 1px solid #333;
