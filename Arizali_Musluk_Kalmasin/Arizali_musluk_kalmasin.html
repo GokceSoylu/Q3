@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Stylesheet/tesisatcim.css"/>
-    <link rel="stylesheet" href="Stylesheet/css_normalize.css"/> <!--defouşt browser ozellikleini sıfırlamak için kullanılır-->
+    <link rel="stylesheet" href="Stylesheet/tesisatcim.css" />
+    <link rel="stylesheet" href="Stylesheet/css_normalize.css" />
+    <!--defouşt browser ozellikleini sıfırlamak için kullanılır-->
     <title>Tesisatcim</title>
 </head>
+
 <body>
 
     <header>
@@ -17,13 +20,14 @@
         </section>
 
         <section id="menu">
-            <nav> <!--hocam nav ı neden eklediğimiz anladık mı? tüm linkleri section içinde tek bir eleman gibi kabul ediyor justfy content muhabbeti-->
+            <nav>
+                <!--hocam nav ı neden eklediğimiz anladık mı? tüm linkleri section içinde tek bir eleman gibi kabul ediyor justfy content muhabbeti-->
                 <a href="#">Home</a>
                 <a href="#">About us</a>
                 <a href="#">Contact</a>
             </nav>
-            <form method="post" action="/" >
-                <input type="search" placeholder="arızanız nedir?" name="ariza"/>
+            <form method="post" action="/">
+                <input type="search" placeholder="arızanız nedir?" name="ariza" />
             </form>
         </section>
     </header>
@@ -43,27 +47,32 @@
         <ul id="most_worker">
             <li>
                 <img src="images/onur_eleman.jpeg">
-                <h2>ayın elemanı</h2><hr>
+                <h2>ayın elemanı</h2>
+                <hr>
                 <h3>Mehmet KUTSALMUSLUK</h3>
-                <p>aralık ayı boyunca damlatan muslukların korkulu rüyası oldu.<br> Özverili çalılmasından dolayı kendisine altın musluk ödülü takdim edildi</p>
+                <p>aralık ayı boyunca damlatan muslukların korkulu rüyası oldu.<br> Özverili çalılmasından dolayı
+                    kendisine altın musluk ödülü takdim edildi</p>
             </li>
             <li>
-                <img src="images/pas_musluk.jpeg" >
-                <h2>kovulan</h2><hr>
+                <img src="images/pas_musluk.jpeg">
+                <h2>kovulan</h2>
+                <hr>
                 <h3>Hasan SIZINTI</h3>
-                <p>tamir ettiği bir musluğun daha sonradan damlattığı tespit edildi. <br>Bu derin utancı kendisi adına tüm şirket yaşamış olup 
+                <p>tamir ettiği bir musluğun daha sonradan damlattığı tespit edildi. <br>Bu derin utancı kendisi adına
+                    tüm şirket yaşamış olup
                     o günü şirketimiz resmi utanç günü ilan ettik.
                 </p>
             </li>
         </ul>
 
         <section id="about_us">
-            <h2>Arızalı tek musluk kalmayıncaya kadar görevimizin yılmaz neferleriyiz.<br> Su uyur musluk uyumaz. Şanlı tesisatçı uykuyla hiç tanışmamıştır </h2>
+            <h2>Arızalı tek musluk kalmayıncaya kadar görevimizin yılmaz neferleriyiz.<br> Su uyur musluk uyumaz. Şanlı
+                tesisatçı uykuyla hiç tanışmamıştır </h2>
         </section>
         <h1>Musluk Şovalyeleri</h1>
         <section id="slider">
-            
-            <ul > <!--id yi ul nin içine yazmanınn önemi!!!-->
+
+            <ul> <!--id yi ul nin içine yazmanınn önemi!!!-->
                 <li> <img src="http://placehold.it/70x70"> Selami Pense</li>
                 <li> <img src="http://placehold.it/70x70"> Şengül Tesisat</li>
                 <li> <img src="http://placehold.it/70x70"> Ahmet Boru</li>
@@ -80,38 +89,42 @@
         </section>
 
         <section id="mapAndForm">
-            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7188.472418050667!2d32.65214536127595!3d41.210796798143356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x408353568ca1908d%3A0xedc4cea46c4fdfa2!2sKarab%C3%BCk%20%C3%9Cniversitesi%20M%C3%BChendislik%20Fak%C3%BCltesi!5e0!3m2!1str!2str!4v1703554082871!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        
+            <section id="map_">
+                <iframe id="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7188.472418050667!2d32.65214536127595!3d41.210796798143356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x408353568ca1908d%3A0xedc4cea46c4fdfa2!2sKarab%C3%BCk%20%C3%9Cniversitesi%20M%C3%BChendislik%20Fak%C3%BCltesi!5e0!3m2!1str!2str!4v1703554082871!5m2!1str!2str"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
 
-            <form action="post" id="iletisim">
+            <section id="ariza_formu">
+                <form action="post" id="iletisim">
+                    <h3>Arıza Bildirim Hattı</h3>
+                    <label for="name"> İsim-Soyisim</label>
+                    <input type="text" id="name" name="name;_surname">
 
-                <label for="name"> İsim-Soyisim</label>
-                <input type="text" id="name" name="name;_surname">
-                <br>
+                    <label for="phone"> Telefon numaranız</label>
+                    <input type="tel" id="phone" name="phone_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        placeholder="5xx-xxx-xxxx">
 
-                <label for="phone"> Telefon numaranız</label>
-                <input type="tel" id="phone" name="phone_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="5xx-xxx-xxxx">
-                <br>
+                    <label for="adres"> Adres</label>
+                    <input type="text" id="adres" name="adres">
 
-                <label for="adres"> Adres</label>
-                <input type="text" id="adres" name="adres">
-                <br>
+                    <p><strong> Arıza türünü seçiniz</strong></p>
+                    <label for="Depresif">Depresif Musluk</label>
+                    <input type="radio" name="arıza_türü" id="depresif">
+                    <label for="üzgün">Üzgün Musluk</label>
+                    <input type="radio" name="arıza_türü" id="üzgün">
+                    <label for="ergen">Ergen Musluk</label>
+                    <input type="radio" name="arıza_türü" id="ergen">
+                    <label for="vanasal">Vanasal Sancılar</label>
+                    <input type="radio" name="arıza_türü" name="vansal">
 
-                <p> Arıza türünü seçiniz</p>
-                <label for="Depresif">Depresif Musluk</label>
-                <input type="radio" name="arıza_türü" id="depresif"><br>
-                <label for="üzgün">Üzgün Musluk</label>
-                <input type="radio" name="arıza_türü" id="üzgün"><br>
-                <label for="ergen" >ergen Musluk</label>
-                <input type="radio" name="arıza_türü" id="ergen"><br>
-                <label for="vanasal">Vanasal Sancılar</label>
-                <input type="radio" name="arıza_türü" name="vansal"><br><br>
-
-                <button type="submit" name="submit" id="submit">Gönder</button>
-            </form>
+                    <button type="submit" name="submit" id="submit"><strong>Gönder</strong></button>
+                </form>
+            </section>
         </section>
     </main>
-    
+
     <footer>
         <ul id="projeler">
             <li><a href="#">Musluksuz Ev Kalmasın</a></li>
@@ -126,4 +139,5 @@
     </footer>
 
 </body>
+
 </html>
