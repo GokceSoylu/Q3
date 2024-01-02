@@ -59,6 +59,7 @@ aside{
     display: grid;
     grid-area: aside;
     border:1px solid #333;
+  
 }
 aside a{
     text-decoration: none;
@@ -70,6 +71,10 @@ aside a{
 aside form{
     padding: 0px;
     padding-bottom: 0px;
+    width: 100%;
+    font-size: larger;
+    align-items:flex-end;
+    justify-content: end;
 }
 main{
     display: grid;
