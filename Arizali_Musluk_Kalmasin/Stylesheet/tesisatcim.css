@@ -132,6 +132,32 @@ main{
 #slider li{
     padding-right: 5px;
     padding-left: 5px;
+    
+}
+#slider #buttons{
+    max-height: max-content;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#slider section button {
+    padding: 3px;
+    border: none;
+    background-color: transparent;
+    transition: all .5s;
+    flex-direction: column;
+
+}
+
+#slider section button:hover {
+    background-color: rgba(0, 0, 0, .25);
+}
+
+#slider section button img {
+    max-height: 24px;
 }
 main > h1{
     text-align: center;
@@ -162,6 +188,23 @@ footer{
 #projeler{
     display:block;
     
+}
+#online_chat
+{
+    background-color: rgb(240, 149, 149);
+    color: #333;
+    padding: 10px;
+    height: 80px;
+    width: 90px;
+    right: 0px;
+    top: 150px;
+    position: fixed;
+    border-radius: 5px;
+}
+#online_chat:hover
+{
+    color: red;
+    background-color: antiquewhite;
 }
 @keyframes title_animation {
     0%{
