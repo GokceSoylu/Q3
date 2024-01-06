@@ -137,7 +137,7 @@ main{
 #slider #buttons{
     max-height: max-content;
     align-items: center;
-    position: relative;
+    position: absolute;
     z-index: 1;
     display: flex;
     justify-content: space-between;
