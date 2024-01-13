@@ -6,3 +6,11 @@ tik.addEventListener("click",event=>
 {
    alert("niye tıklıyon birader");
 });
+
+
+//stle objesi ile js kullanarak css özellikleri ekleme
+tik.style.margin="50px";
+tik.style.padding="10px";
+tik.style.borderRadius="10px";
+tik.style.backgroundColor="red";
+tik.style.color="white";
