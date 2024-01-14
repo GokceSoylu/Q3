@@ -1,0 +1,15 @@
+body{
+    background-color:rgb(149, 147, 145);
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding: 5px;
+    margin: 5px;
+}
+ul:first-child
+{
+    margin-left: 0px;
+}
