@@ -1,0 +1,40 @@
+html, body{
+    height: 100%;
+}
+body{
+    display: grid;
+    grid-template: 
+        "first mid last" ;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100%;
+    
+}
+first{ /* hocaaam  */
+    display:grid;
+    grid-area: first;
+    border:1px  solid #333;
+    /*align-items: center;*/
+}
+.center_top
+{
+    justify-content: center;
+    margin-top:10px;
+}
+.button{
+    display: flex;
+    max-height: 20px;
+    max-width: 100px; 
+}
+mid{
+    display:grid;
+    grid-area: mid;
+    border: 1px  solid #333;
+}
+last{
+    display: grid;
+    grid-area: last;
+    border: 1px solid #333;
+}
+h1{
+    color:red;
+}
