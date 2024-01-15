@@ -1,0 +1,19 @@
+body
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+#top
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+#the_center
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
