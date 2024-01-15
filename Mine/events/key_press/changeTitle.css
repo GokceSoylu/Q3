@@ -1,0 +1,31 @@
+body
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#layer_card
+{
+    background-color: rgb(238, 241, 243);
+    align-items: center;
+    justify-content: center;
+    display:block;
+    border: 1px solid #333;
+    border-radius:10%;
+    height: 400px;
+    width: 600px;
+}
+#inside_card
+{
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#text_card
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
